@@ -5,81 +5,6 @@
     width:100px;
 }
 
-#title{
-    text-align: center;
-    color:white;
-    font-size: 100px; /* Adjust the font size as needed */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border:10px solid white;
-    border-radius:20px;
-    z-index: 2; 
-    margin:0px;
-}
-
-#welcomeMessage{
-    font-size:2em;
-    font-weight: bold;
-    
-}
-
-.sectionSeparator{
-    height:100px;
-    background-color: #514663;
-    border-style: solid;
-    border-width: 10px;
-}
-
-#titleSection{
-    height: 1200px;
-    width: 100%;
-    background-color: black;
-    position:relative;
-    z-index: 1;
-    background-image:url(/images/HeaderPic.jpg);
-    background-size: cover;
-    margin:0px;
-    padding:0px;
-    
-}
-
-#welcomeSection{
-    height:400px;
-    width: 100%;
-    Background: radial-gradient(#CACF85 80%, #8CBA80);
-    text-align: center;
-    margin-top:0px;
-    padding:0px;
-
-}
-
-#serviceSection{
-    Background: radial-gradient(#CACF85 80%, #8CBA80);
-    margin:0px;
-}
-
-#a{
-    margin:0px;
-    padding-left: 35%;
-    font-weight: bold;
-    font-size: 2.5em;
-}
-
-#serviceList{
-    text-align: left;
-    list-style-position:inside;
-    padding-left: 40%;
-}
-
-.serviceText{
-    
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 2.5em;
-}
-
 #navBar{
     height: 100px;
     width:100%;
@@ -121,12 +46,82 @@
         }
 }
 
-#welcomeMessage{
+#titleSection{
+    height: 1200px;
+    width: 100%;
+    position:relative;
+    background-image:url(/images/HeaderPic.jpg);
+    background-size: cover;
     margin:0px;
-    padding-top:100px;
+    padding:0px;
+    
 }
 
+#title{
+    text-align: center;
+    position: absolute;
+    margin:0px;
 
+    color:white;
+    font-size: 120px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:10px solid white;
+    border-radius:20px;
+    
+}
+
+#welcomeSection{
+    height:400px;
+    width: 100%;
+    Background: radial-gradient(#CACF85 80%, #8CBA80);
+    text-align: center;
+    margin-top:0px;
+    padding:0px;
+
+}
+
+#welcomeMessage{
+    font-size:2em;
+    font-weight: bold;
+    margin:0px;
+    padding-top:100px;
+    
+}
+
+.sectionSeparator{
+    height:100px;
+    background-color: #514663;
+    border-style: solid;
+    border-width: 10px;
+    margin:0px;
+}
+
+#serviceSection{
+    Background: radial-gradient(#CACF85 80%, #8CBA80);
+    margin:0px;
+}
+
+#serviceDeclaration{
+    margin:0px;
+    padding-left: 35%;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+#serviceList{
+    text-align: left;
+    list-style-position:inside;
+    padding-left: 40%;
+}
+
+.serviceText{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5em;
+}
 
 #homePicture{
     height:1200px;
@@ -139,8 +134,9 @@ body{
    display:block;
     
 }
-
+/* 
 hr{
     margin:0px;
-}
+} */
+
 
