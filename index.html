@@ -3,38 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VerdeVista Lawn Care Services</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="null">
+    <title>My Business!</title>
 </head>
 <body>
+    <a href="#home">
+        <img id="logoImage" src="images/Logo.png">
+    </a>
     
-    <header>
-        <!-- Top Image Box with H1 Element -->
-    <div class="headerContainer">
+    <header id="home">
+        <nav id="navBar">
+            <ul id="navList">
+                <li class="navText"><a class="navLink" href="#home">Home</a></li>
+                <li class="navText"><a class="navLink" href="#serviceSection">Services</a></li>
+                <li class="navText"><a class="navLink" href="https://www.google.com">Contact Us!</a></li>
+            </ul>
+        </nav>
+    <section id="titleSection">
         <h1 id="title">VerdeVista<br>Lawn Care Services</h1>
-            <div class="image-container">
-                <img src="images/HeaderPic.jpg" alt="Serene Garden" class="headerPic">
-            </div>
-    </div>
-        
-        <!-- Divider -->
-        <div class="divider"></div>
-    </header>
-    <hr>
-    <div class="contentBox">
-        <p class = "content">Here at VerdeVista we take pride in being the <br>
-            new standard of lawn care as we strive for <br>
-            perfection.
-            <br>
-            <br>
-            Contact us today for a free estimate!</p>
-       
-        
-    </div>
-    <!-- Rest of your website content goes here -->
+    </section>
 
-    <footer>
-        <!-- Footer content goes here -->
-    </footer>
+    </header>
+   
+    <section id="welcomeSection">
+        <p id="welcomeMessage">Here at VerdeVista we take pride in being the<br>
+        new standard of lawn care as we strive for<br>
+        perfection.<br><br>
+        Contact us today for a free estimate!</p>
+    </section>
+
+    <hr class="sectionSeparator">
+
+    <section id="serviceSection">
+        <p id="a"> Services include: </p> <br>
+        <ul id="serviceList">
+            <li class="serviceText">Mowing</li>
+            <li class="serviceText">Mulching</li>
+            <li class="serviceText">Tree Trimming</li>
+        </ul>
+    </section>
+
+     
+    
 </body>
 </html>
