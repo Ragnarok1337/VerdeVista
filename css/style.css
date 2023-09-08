@@ -8,7 +8,7 @@
 #navBar{
     height: 100px;
     width:100%;
-    Background: radial-gradient(#CACF85 80%, #8CBA80);
+    Background:#CACF85;
     position:fixed;
     z-index:2;
 }
@@ -76,7 +76,7 @@
 #welcomeSection{
     height:400px;
     width: 100%;
-    Background: radial-gradient(#CACF85 80%, #8CBA80);
+    Background:#CACF85;
     text-align: center;
     margin-top:0px;
     padding:0px;
@@ -91,17 +91,10 @@
     
 }
 
-.sectionSeparator{
-    height:100px;
-    background-color: #514663;
-    border-style: solid;
-    border-width: 10px;
-    margin:0px;
-}
-
 #serviceSection{
-    Background: radial-gradient(#CACF85 80%, #8CBA80);
+    Background:#CACF85;
     margin:0px;
+    padding-top:50px;
 }
 
 #serviceDeclaration{
@@ -112,12 +105,14 @@
 }
 
 #serviceList{
+    margin:0px;
     text-align: left;
     list-style-position:inside;
     padding-left: 40%;
 }
 
 .serviceText{
+    margin:0px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 2.5em;
@@ -131,12 +126,16 @@
 
 body{
     margin:0px;
-   display:block;
+    display:block;
     
 }
-/* 
-hr{
+
+.floral_style{
+    height:50px;
     margin:0px;
-} */
+    border:none;
+    Background:#CACF85;
+    background-image: url(/images/leaf.png);
+}
 
 
